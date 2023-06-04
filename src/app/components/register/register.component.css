@@ -1,0 +1,49 @@
+.centered-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+    height: 10px;
+    width: fit-content;
+  }
+  
+  .centered-heading {
+    text-align: center;
+  }
+
+  .center-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  mat-card {
+    width: auto;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .register-button {
+    margin-bottom: 10px;
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Adjust the padding as needed */
+    padding-bottom: 10px;
+    /* width: 800px; */
+    background-color: rgb(251, 251, 251);
+    border-radius: 0%;
+    box-shadow: none;
+    outline: 2px;
+    outline-color: rgb(152, 152, 152);
+    outline-offset: 10px;
+    outline-style: solid;
+  }

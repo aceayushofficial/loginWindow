@@ -1,0 +1,25 @@
+.container {
+    height: 100vh;
+  }
+  
+  .sidenav {
+    width: 200px;
+    transition: width 0.3s ease;
+  }
+  
+  .sidenav:hover {
+    width: 250px; /* Adjust the width as desired */
+  }
+  
+  .mat-sidenav-content {
+    transition: margin-left 0.3s ease;
+  }
+  
+  :host-context(.mat-sidenav-opened) .mat-sidenav-content {
+    margin-left: 200px; /* Adjust the margin-left as desired */
+  }
+  
+  :host-context(.mat-sidenav-hovered) .mat-sidenav-content {
+    margin-left: 250px; /* Adjust the margin-left as desired */
+  }
+  

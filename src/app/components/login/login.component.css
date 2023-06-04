@@ -1,0 +1,201 @@
+.centered-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+    height: 10px;
+    width: fit-content;
+  }
+  
+  .centered-heading {
+    text-align: center;
+  }
+
+  .round-button {
+    width: 96px; /* Set the desired button width */
+    height: 96px; /* Set the desired button height */
+    border-radius: 50%; /* Make the button round */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; /* Remove default button padding */
+    background: transparent; /* Make the button background transparent */
+    border: none; /* Remove button border */
+    cursor: pointer;
+  }
+  
+  .button-icon-microsoft {
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-icon-microsoft img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .button-icon-google {
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-icon-google img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .button-icon-facebook {
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-icon-facebook img {
+    max-width: 70%;
+    max-height: 70%;
+  }
+
+  .button-container {
+    display: flex;
+    gap: 10px; /* Adjust the space between buttons as needed */
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Adjust the padding as needed */
+    padding-bottom: 10px;
+    width: 400px;
+    background-color: rgb(251, 251, 251);
+    border-radius: 0%;
+    box-shadow: none;
+    outline: 2px;
+    outline-color: rgb(152, 152, 152);
+    outline-offset: 10px;
+    outline-style: solid;
+  }
+
+  .center-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  mat-card {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .cylindrical-button {
+    border-radius: 30px; /* Adjust the border radius as desired */
+    padding: 10px 30px; /* Adjust the padding as desired */
+    background-color: #2196f3; /* Adjust the background color as desired */
+    color: white; /* Adjust the text color as desired */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow if desired */
+  }
+  
+  .cylindrical-button:hover {
+    background-color: #0d8bf1; /* Adjust the hover background color as desired */
+  }
+
+  .add-space{
+    padding: 25px;
+  }
+  
+  .container {
+    height: 100vh;
+  }
+  
+  .sidenav {
+    width: 200px;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-button {
+    margin-bottom: 10px;
+  }
+  
+  .or-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .or-text {
+    margin: 0 10px;
+    color: #ccc;
+    font-weight: bold;
+  }
+  
+  .other-option {
+    margin-top: 10px;
+    color: #007bff;
+    font-weight: bold;
+  }
+
+  .login-button {
+    position: relative;
+    perspective: 1000px;
+    transition: transform 0.5s;
+    border-radius: 30px; /* Adjust the border radius as desired */
+    padding: 10px 30px; /* Adjust the padding as desired */
+    background-color: #2196f3; /* Adjust the background color as desired */
+    color: white; /* Adjust the text color as desired */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow if desired */
+  }
+  
+  .login-button:hover {
+    transform: rotateY(10deg);
+  }
+  
+  .login-button.clicked {
+    transform: rotateY(180deg);
+  }
+  
+  .login-button span {
+    display: inline-block;
+    transition: opacity 0.2s;
+  }
+  
+  .login-button.clicked span {
+    opacity: 0;
+  }
+  
+  .login-button.clicked:before {
+    content: '';
+    top: 0;
+    left: 0;
+    background-color: #2196f3;
+    border-radius: 30px; /* Adjust the border radius as desired */
+    padding: 10px 30px; /* Adjust the padding as desired */
+    transition: opacity 0.2s;
+  }
+  
+  .login-button.clicked:before:hover {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+  
+  

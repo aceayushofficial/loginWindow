@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@font-face{
+    font-family: "custom-font";src: url("fonts/custom-font.woff2")format("woff2"),
+    url("fonts/custom-font.woff")format("woff"),
+    url("fonts/custom-font.ttf")format("truetype")
+   }
+
+
